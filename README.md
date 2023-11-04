@@ -1,2 +1,2 @@
 # radian
-A terminal based IDE for new generation programmers
+A terminal based IDE for next generation programmers
