@@ -1,13 +1,17 @@
-import program from 'commander';
+import {Command} from 'commander';
+
+const program = new Command();
 
 interface Types {
-    option: string;
+    option: any;
 }
 
 class MainTerm {
     constructor() {
-        program.option('--first <value>');
+        program.description('--first <value>');
     }
 }
+
+program.parse();
 
 new MainTerm();
